@@ -1,0 +1,202 @@
+/**app.wxss**/
+
+/*居中内容*/
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  } 
+  
+  /*分割线样式*/
+  .divLine{
+      background: #000000;
+      width: 100%;
+      height: 2rpx;
+  }
+  
+  /*一级标题*/
+  .title1{
+      font-family: Sans-serif;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: bold;
+  }
+  /*二级标题*/
+  .title2{
+      font-family: Sans-serif;
+      font-size: 21px;
+      font-style: normal;
+      font-weight: bold;
+  }
+  /*三级标题*/
+  .title3{
+      font-family: Sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: bold;
+  }
+  
+  /*盒模型*/
+  .boxModel01 {
+      width: 80%;
+      height: 80%;
+      background-color: #ffffff;  /*背景颜色*/
+      border: 1px dashed #f00;
+      padding: 10px;             /*内边距*/
+      margin: 10px;              /*外边距*/
+  }
+  .boxModel02 {
+      width: 80%;
+      height: 80%;
+      border: 3px  rgb(190, 138, 206);
+      padding: 20px;      /*内左边距*/
+      margin: 15px;          /*外上下边距为0，左右边距为20px*/
+      border-radius: 10%;
+  }
+  .boxModel03 {
+      width: 80%;
+      height: 80%;
+      border: 3px dotted rgb(228, 157, 250);
+      padding: 20px;      /*内左边距*/
+      margin: 15px;          /*外上下边距为0，左右边距为20px*/
+      border-radius: 10%;
+  }
+  
+  page {
+      background: -webkit-linear-gradient(top,rgb(181, 255, 237),#dafff4,white);
+  }
+  
+  /*外部居中*/
+  .outside{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  /*表格的box*/
+  .table{
+      width: 98%;
+      border-top: #E8E8E8 solid 1px;
+      border-bottom: #E8E8E8 solid 1px;
+      position: relative;
+      left: 1%;
+      color: #333333;
+  }
+  .tab_th{
+      width: 100%;
+      position: relative;
+      height: 70rpx;
+      border-top: #E8E8E8 solid 1px;
+      border-bottom: #E8E8E8 solid 1px;
+      background-color: #FAFAFA;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .th_td1{
+      width: 25%;
+      height: 70rpx;
+      border-top: #E8E8E8 solid 1px;
+      border-bottom: #E8E8E8 solid 1px;
+      background-color: #FAFAFA;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .th_td2{
+      width: 25%;
+      height: 70rpx;
+      border: 1px solid #E8E8E8;
+      background-color: #FAFAFA;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+   
+  .th_td3{
+      width: 25%;
+      height: 70rpx;
+      border: 1px solid #E8E8E8;
+      background-color: #FAFAFA;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .th_td4{
+      width: 25%;
+      height: 70rpx;
+      border-top: #E8E8E8 solid 1px;
+      border-bottom: #E8E8E8 solid 1px;
+      background-color: #FAFAFA;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  } 
+  .tab_tr{
+      width: 100%;
+      position: relative;
+      height: 70rpx;
+      border-top: #E8E8E8 solid 1px;
+      border-bottom: #E8E8E8 solid 1px;
+      background-color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .tr_td1{
+      width: 25%;
+      height: 70rpx;
+      border-top: #E8E8E8 solid 1px;
+      border-bottom: #E8E8E8 solid 1px;
+      background-color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .tr_td2{
+      width: 25%;
+      height: 70rpx;
+      border: 1px solid #E8E8E8;
+      background-color:#FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .tr_td3{
+      width: 25%;
+      height: 70rpx;
+      border: 1px solid#E8E8E8;
+      background-color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .tr_td4{
+      width: 25%;
+      height: 70rpx;
+      border-top: #E8E8E8 solid 1px;
+      border-bottom: #E8E8E8 solid 1px;
+      background-color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .text{
+      font-size:12px;
+      font-family:PingFangHK-Regular,PingFangHK;
+      font-weight:400;
+      color:rgba(51,51,51,1);
+      line-height:17px;
+  }
+  .th_text{
+      font-size:13px;
+      font-family:PingFangSC-Regular,PingFang SC;
+      font-weight:400;
+      color:rgba(51,51,51,1);
+      line-height:22px;
+  }
+  

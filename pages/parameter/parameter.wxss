@@ -1,0 +1,6 @@
+/* pages/parameter/parameter.wxss */
+.page__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

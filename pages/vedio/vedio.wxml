@@ -1,0 +1,17 @@
+<!--pages/vedio/vedio.wxml-->
+<view class="title1">
+    <text space="nbsp"> 石油电缆防偷盗系统\n\n</text>
+</view>
+<view class="title2">
+    <text space="nbsp"> 监控视频：</text>
+</view>
+
+<view class="container">
+    <video  id="myVideo"  src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"  ></video>
+</view>
+
+<view class="outside">
+    <view class="boxModel02">
+        <text space="nbsp">\n    由于小程序"video"组件不支持flv和hls视频流，而微信live-player组件需要有相关审核资质，我们没有相关资质和资格使用该组件，所以暂用mp4视频流进行演示，但其原理和使用方式一样。</text>
+    </view>
+</view>

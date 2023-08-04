@@ -1,0 +1,60 @@
+<!--index.wxml-->
+<view class="title1">
+    <text space="nbsp"> 石油电缆防偷盗系统</text>
+</view>
+
+<view class="outside">
+<view class="boxModel03">
+    <text space="nbsp">    本系统通过加速度传感器、红外传感器、和视频检测进行电缆的防盗，使用GPS定位器进行定位，使用华为云IoT平台进行数据传输和设备管理，并可以在多端进行查看和控制。</text>
+</view>
+</view>
+
+<view class="divLine"></view>
+
+<view class="title2">
+    <text space="nbsp">  功能介绍：</text>
+</view>
+
+<view class="outside">
+<view class="boxModel03">
+    <view class="title3">
+        <text space="nbsp">实时地图显示：</text>
+    </view>
+    <text space="nbsp">    本系统使用百度地图和腾讯地图API，定时刷新显示电缆位置。</text>
+</view>
+<view class="boxModel03">
+    <view class="title3">
+        <text space="nbsp">加速度检测：</text>
+    </view>
+    <text space="nbsp">    采集电缆加速度数据，判断是否发生异常。</text>
+</view>
+<view class="boxModel03">
+    <view class="title3">
+        <text space="nbsp">视频检测：</text>
+    </view>
+    <text space="nbsp">    摄像头检测确认电缆周围的异常情况，识别异常行为。</text>
+</view>
+<view class="boxModel03">
+    <view class="title3">
+        <text space="nbsp">云平台传输：</text>
+    </view>
+    <text space="nbsp">    通过华为云IoT平台可视化监测数据和设备状态，通过API多端接入，方便管理。</text>
+</view>
+<view class="boxModel03">
+    <view class="title3">
+        <text space="nbsp">邮件提醒：</text>
+    </view>
+    <text space="nbsp">    通过邮件提醒用户电缆状态。</text>
+</view>
+<view class="boxModel03">
+    <view class="title3">
+        <text space="nbsp">关键技术：</text>
+    </view>
+    <text space="nbsp">    前端：Nuxt3、Element Plus、微信小程序\n</text>
+    <text space="nbsp">    视频处理：video组件、mpegts.js\n</text>
+    <text space="nbsp">    云服务：华为云IoTDA\n</text>
+    <text space="nbsp">    开发板：BearPi Nano\n</text>
+    <text space="nbsp">    后端：Python Flask\n</text>
+</view>
+</view>
+

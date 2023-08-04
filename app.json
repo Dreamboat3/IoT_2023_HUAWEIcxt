@@ -1,0 +1,41 @@
+{
+    "pages": [
+      "pages/index/index",
+      "pages/parameter/parameter",
+      "pages/vedio/vedio"
+    ],
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#fff",
+      "navigationBarTitleText": "IoT-Test",
+      "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+      "selectedColor": "#31869B",
+      "list": [
+        {
+          "current": 0,
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "/images/index.png",
+          "selectedIconPath": "/images/selected_index.png"
+        },
+        {
+          "current": 1,
+          "pagePath": "pages/parameter/parameter",
+          "text": "参数页",
+          "iconPath": "/images/parameter.png",
+          "selectedIconPath": "/images/selected_parameter.png"
+        },
+        {
+          "current": 2,
+          "pagePath": "pages/vedio/vedio",
+          "text": "视频页",
+          "iconPath": "/images/vedio.png",
+          "selectedIconPath": "/images/selected_vedio.png"
+        }
+      ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+  }

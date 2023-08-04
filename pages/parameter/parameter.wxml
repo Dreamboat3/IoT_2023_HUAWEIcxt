@@ -1,0 +1,68 @@
+<!--pages/parameter/parameter.wxml-->
+<view class="title1">
+    <text space="nbsp"> 石油电缆防偷盗系统\n\n</text>
+</view>
+
+<view class="title2" >
+    <view class="container">参数和状态</view>
+</view>
+
+<view class="table" >
+    <view class="tab_th">
+        <view class="th_td1 th_text"><text>设备ID</text></view>
+        <view class="th_td2 th_text"><text>加速度X</text></view>
+        <view class="th_td3 th_text"><text>加速度Y</text></view>
+        <view class="th_td4 th_text"><text>加速度Z</text></view>
+    </view>
+    
+        <view class="tab_tr">
+            <view class="tr_td1 text">{{id}}</view>
+            <view class="tr_td2 text">{{ax}}</view>
+            <view class="tr_td3 text">{{ay}}</view>
+            <view class="tr_td4 text">{{az}}</view>
+        </view>
+    
+    <view class="tab_th">
+        <view class="th_td1 th_text"><text>电缆状态</text></view>
+        <view class="th_td2 th_text"><text>纬度</text></view>
+        <view class="th_td3 th_text"><text>经度</text></view>
+        <view class="th_td4 th_text"><text>温度</text></view>
+    </view>
+    <view class="tab_tr">
+        <view class="tr_td1 text"><text>{{st}}</text></view>
+        <view class="tr_td2 text"><text>{{la}}</text></view>
+        <view class="tr_td3 text"><text>{{lo}}</text></view>
+        <view class="tr_td4 text"><text>{{temp}}</text></view>
+    </view>
+</view>
+<view>
+    <text space="nbsp"> 最近刷新时间：{{time}}</text>
+</view>
+
+<text>\n</text>
+<button type="primary" bindtap="renew">刷新参数状态</button>
+<view class="container">
+    <text>\n</text>
+    <switch bindchange="switchchange1">自动刷新</switch>
+</view>
+
+<text>\n</text>
+<view class="title2" >
+    <view class="container">下发命令</view>
+    <text>\n</text>
+</view>
+<view class="container">
+    <switch bindchange="switchchange">自动布控</switch>
+</view>
+
+<text>\n</text>
+<button type="primary" bindtap="reset">重置电缆状态</button>
+<text>\n</text>
+<view class="title3">
+    <text  space="nbsp">  当前动作状态：{{result}}</text>
+</view>
+
+<view class="container">
+    <map id="map" longitude="{{lo}}" latitude="{{la}}" markers="{{markers}}"></map>
+</view>
+
